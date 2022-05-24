@@ -1,0 +1,16 @@
+
+#wissen {
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    border-radius: 15px;
+    margin-left: 1100px;
+    margin-right: 100px;
+}
+#mops img {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    margin-right: 950px;
+    padding: 5px;
+}

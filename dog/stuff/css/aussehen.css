@@ -1,0 +1,25 @@
+
+#aussehen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#secret {
+    display: none;
+}
+
+#aussehen img:hover {
+    transition: all .2s ease-in;
+    cursor: url(https://immanuelm.de/katze/stuff/images/cursor-raw.png), auto;
+    transform: scale(1.05,1.05);
+}
+
+#aussehen img {
+    margin-left: 100px;
+    border: 2px solid rgb(49, 49, 49);
+    box-shadow: 0 0 20px rgba(233, 233, 233, 0.5);
+    border-radius: 5px;
+}
+

@@ -1,0 +1,19 @@
+
+#fakten {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    border-radius: 15px;
+    margin-left: 1300px;
+    margin-right: 100px;
+
+
+}
+
+#retriever img {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    margin-right: 700px;
+    padding: 5px;
+}

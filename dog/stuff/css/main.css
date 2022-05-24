@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    cursor: grab;
+    color: rgb(226, 226, 226);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+
+#head {
+    background-color: rgb(128, 128, 128);
+    box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.32);
+}
+
+
+#head img {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 0px;
+    padding: 10px;
+}
+
+
+#head img:hover {
+    transform: rotate(14deg);
+    transition: .2s ease-in;
+}
+
+
+h1 {
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+}
+
+
+h1:hover {
+    transition: all .2s ease-in; 
+    color: rgb(0, 0, 0);
+    font-size: 41px;
+    text-decoration: underline;
+}
+
+#navigator a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+    text-shadow: 0 0 10px rgb(150, 147, 147);
+    border: 2px solid rgba(0, 0, 0, 0.829);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+
+#navigator a:hover {
+    transition: .2s ease-in;
+    text-decoration: underline;
+}
+
+#navigator b {
+    font-size: 24px;
+}
+
+::selection {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+}
+
+::-moz-selection {
+    background-color: #000000a9;
+    color: rgb(0, 0, 0);
+}
+
+::-o-selection {
+    background-color: #000000a9;
+    color: rgb(0, 0, 0);
+}
+
+::-ms-selection {
+    background-color: #000000a9;
+    color: rgb(0, 0, 0);
+}
+
+::-webkit-selection {
+    background-color: #050505a9;
+    color: rgb(0, 0, 0);
+}
+
